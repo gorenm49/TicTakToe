@@ -6,9 +6,13 @@ namespace TicTakToe
     {
         public void GameFun()
         {
-            char[] arr = {'1','2','3','4','5','6','7','8','9'};
-            int player_1 =0, player_2=0;
-            
+            char[] arr = new char[10];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = ' ';
+                System.Console.WriteLine(arr[i]+" | ");
+            }          
         }
     }
 }
