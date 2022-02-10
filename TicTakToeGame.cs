@@ -13,6 +13,12 @@ namespace TicTakToe
                 arr[i] = ' ';
                 System.Console.WriteLine(arr[i]+" | ");
             }          
+
+            System.Console.WriteLine("please select X or O to play the game.");
+            char input = Convert.ToChar(Console.ReadLine());
+
+            System.Console.WriteLine("Player Choose "+input+" to play");
+            
         }
     }
 }
