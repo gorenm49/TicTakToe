@@ -17,7 +17,20 @@ namespace TicTakToe
             System.Console.WriteLine("please select X or O to play the game.");
             char input = Convert.ToChar(Console.ReadLine());
 
-            System.Console.WriteLine("Player Choose "+input+" to play");
+         
+                switch (input)
+                {
+                    case 'X':
+                        System.Console.WriteLine("Player Choose "+input+" to play");
+                        break;
+                    case '0':
+                        System.Console.WriteLine("Player Choose "+input+" to play");
+                        break;
+                    default:
+                        System.Console.WriteLine("Choose correct charactor.");
+                        break;
+                }
+                
             
         }
     }
